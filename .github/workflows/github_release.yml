@@ -1,10 +1,7 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - release
-
+  workflow_dispatch:
 
 jobs:
   build:
@@ -22,7 +19,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: 11
-          distribution: microsoft
+          distribution: temurin
           server-id: github
       - name: Configure Git user
         run: |
