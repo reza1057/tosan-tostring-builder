@@ -4,7 +4,7 @@
 
 	<groupId>com.test</groupId>
 	<artifactId>sample01</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>github-ci</name>
@@ -18,7 +18,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/reza1057/tosan-tostring-builder.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>sample01-1.0.2</tag>
   </scm>
 
 	<properties>
